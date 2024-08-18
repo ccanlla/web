@@ -1,0 +1,130 @@
+body {
+    background-color: #F8F4E3;
+    color: #4F4F4F;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #2C3E50;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: #34495E;
+}
+
+footer p, footer a {
+    font-family: 'Roboto', sans-serif;
+    color: #34495E;
+}
+
+/* Estilos para la barra de navegación */
+.navbar-custom {
+    background-color: #FFFFFF;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand img {
+    width: 120px;  /* Tamaño fijo para el logo */
+    height: auto;
+}
+
+.navbar-custom .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: #34495E;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+}
+
+.navbar-custom .nav-link#cart {
+    background-color: #FFD700; /* Color dorado para el carrito */
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 15px;
+}
+
+.navbar-custom .nav-link#cart:hover {
+    background-color: #DAA520; /* Oscurecer el dorado al pasar el mouse */
+    color: #FFFFFF;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+.contact-form button {
+    background-color: #2C3E50;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #34495E;
+}
+
+
+/* Estilos del pie de página */
+/* Estilos para el footer */
+.footer-custom {
+    background-color: #f8f4e3;
+    color: #4F4F4F;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 1px solid #dcdcdc;
+}
+
+.footer-custom p, .footer-custom a {
+    font-family: 'Roboto', sans-serif;
+    color: #34495E;
+}
+
+.footer-custom .footer-icon {
+    width: 30px;
+    height: auto;
+}
+
+.footer-custom img {
+    max-width: 150px;  /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+.footer-custom p {
+    margin-bottom: 10px;
+}
+
+.footer-custom .d-flex a {
+    color: #34495E;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}

@@ -1,0 +1,143 @@
+/* Estilos generales */
+body {
+    background-color: #F8F4E3;
+    color: #4F4F4F;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #2C3E50;
+}
+
+/* Encabezado */
+header {
+    background-color: #FFFFFF;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de navegación personalizada */
+navbar-custom {
+    background-color: #FFFFFF;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-custom .navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+
+.navbar-custom .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-custom .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: #34495E;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.navbar-custom .nav-link:hover {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+}
+
+.navbar-custom .nav-link#cart {
+    background-color: #FFD700;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.navbar-custom .nav-link#cart:hover {
+    background-color: #DAA520;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+}
+
+/* Fondo del texto principal */
+.about-us {
+    background-color: #FFFFFF; /* Fondo blanco para el bloque de texto */
+    padding: 40px 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del texto */
+}
+
+.about-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; /* Tamaño del texto aumentado */
+    line-height: 1.8; /* Aumenta la altura de la línea */
+    text-align: center;
+    color: #34495E;
+    margin-top: 20px;
+}
+
+/* Carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.carousel {
+    padding: 10px;
+    border: solid 2px white;
+    max-width: 800px;
+    margin: 0 auto 0px auto;
+}
+
+/* Efecto de transición en texto al pasar el mouse */
+.about-text:hover {
+    color: #2C3E50;
+    transition: color 0.3s ease;
+}
+
+/* Estilos del pie de página */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+}
+
+footer .footer-logo img {
+    max-width: 100%;
+    width: 90px; /* Ajustar el tamaño del logo del footer */
+    height: auto;
+}
+
+footer p, footer a {
+    font-family: 'Roboto', sans-serif;
+    color: #34495E;
+}
+
+/* Iconos de redes sociales */
+.social-icons img {
+    max-width: 100%;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}

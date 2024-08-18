@@ -1,0 +1,114 @@
+/* Estilos personalizados */
+body {
+    background-color: #F8F4E3;
+    color: #4F4F4F;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #2C3E50;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: #34495E;
+}
+
+footer p, footer a {
+    font-family: 'Roboto', sans-serif;
+    color: #34495E;
+}
+
+/* Estilos para la barra de navegación */
+.navbar-custom {
+    background-color: #FFFFFF;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Espacio entre el logo y los enlaces */
+    align-items: center;
+}
+
+.navbar-custom .navbar-brand img {
+    width: 120px;  /* Tamaño fijo para el logo */
+    height: auto;
+}
+
+.navbar-custom .navbar-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Empuja los enlaces hacia la derecha */
+}
+
+.navbar-custom .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: #34495E;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.navbar-custom .nav-link:hover {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+}
+
+.navbar-custom .nav-link#cart {
+    background-color: #FFD700; /* Color dorado para el carrito */
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 15px;
+}
+
+.navbar-custom .nav-link#cart:hover {
+    background-color: #DAA520; /* Oscurecer el dorado al pasar el mouse */
+    color: #FFFFFF;
+}
+
+/* Alineación de los elementos de navegación a la derecha */
+.navbar-custom .navbar-nav .nav-item {
+    margin: 0 10px; /* Espacio entre los elementos */
+}
+
+/* Asegura que la barra de navegación esté bien ajustada a los otros elementos de la página */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para las imágenes de productos */
+.productos img {
+    width: 100%;  /* Ajusta el ancho al 100% del contenedor */
+    max-width: 150px;  /* Ancho máximo para todas las imágenes de productos */
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efectos de transición */
+}
+
+.productos img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Añade sombra al pasar el mouse */
+}
+
+/* Estilos para la imagen de la modelo */
+.hero img {
+    max-width: 400px;  /* Tamaño fijo para la imagen de la modelo */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos para las imágenes de redes sociales */
+footer img {
+    width: 30px;  /* Tamaño fijo para las imágenes de redes sociales */
+    height: auto;
+}
